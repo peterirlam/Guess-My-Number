@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Audiowide', cursive;
+  font-family: 'Press Start 2P', sans-serif;
   color: #eee;
   background-color: #222;
 }
@@ -18,7 +18,7 @@ body {
 /* LAYOUT */
 header {
   position: relative;
-  height: 35vh; 
+  height: 35vh; /* header & main are split to 35% and 65% of the screen */
   border-bottom: 7px solid #eee;
 }
 
@@ -37,14 +37,14 @@ main {
   align-items: center;
 }
 
-.right { 
+.right { /* as all els in the right class are <p>, which are block level, no need for column dir */
   width: 52rem;
-  font-size: 4rem;
+  font-size: 2.4rem;
 }
 
 /* ELEMENTS STYLE */
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   position: absolute;
   width: 100%;
@@ -56,7 +56,7 @@ h1 {
 .number {
   background: #eee;
   color: #333;
-  font-size: 7rem;
+  font-size: 6rem;
   width: 15rem;
   padding: 3rem 0rem;
   text-align: center;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .between {
-  font-size: 3rem;
+  font-size: 1.8rem;
   position: absolute;
   top: 6rem;
   right: 4rem;
@@ -85,7 +85,7 @@ h1 {
   border: 4px solid #eee;
   font-family: inherit;
   color: inherit;
-  font-size: 6rem;
+  font-size: 5rem;
   padding: 2.5rem;
   width: 25rem;
   text-align: center;
@@ -96,7 +96,7 @@ h1 {
   border: none;
   background-color: #eee;
   color: #222;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
@@ -107,8 +107,9 @@ h1 {
 }
 
 .message {
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
   height: 3rem;
+  line-height: 3.3rem;
 }
 
 .label-score {
